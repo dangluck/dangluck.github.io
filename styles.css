@@ -201,6 +201,7 @@ My story content
 }
 
 .checklist {
+    max-width: 100%;
     height: 300px;
     display: flex;
     flex-direction: column;
