@@ -92,7 +92,7 @@ Header
 }
 
 .logo-wrap {
-    max-width: 110px;
+    max-width: 130px;
 }
 
 .logo {
@@ -125,8 +125,17 @@ Footer
     padding: 0;
 }
 
-img.hero-image {
+.hero-image-wrap {
+    background-color: white;
     max-width: 100%;
+    margin: auto;
+}
+
+img.hero-image {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 30px solid white;
 }
 
 
@@ -136,6 +145,11 @@ img.hero-image {
     background-color: #21255a;
     padding: 100px 0;
     border-bottom: 5px solid rgba(255, 215, 92, 1);
+}
+
+section.main-content > div {
+    width: 100%;
+    margin: auto;
 }
 
 .main-content-text {
@@ -186,6 +200,36 @@ My story content
     max-width: 100%;
 }
 
+.checklist {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checklistitem {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex: 1 0 20%;
+    margin: 10px;
+}
+
+.checklistitem > span {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.iconrow {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+img.icon {
+    width: 80px;
+}
 
 /*
 Experience
