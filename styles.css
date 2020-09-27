@@ -132,7 +132,7 @@ Footer
 }
 
 img.hero-image {
-    max-width: 600px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
     border: 30px solid white;
@@ -229,6 +229,7 @@ My story content
 
 img.icon {
     width: 80px;
+    height: 80px;
 }
 
 /*
