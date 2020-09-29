@@ -202,23 +202,22 @@ My story content
 
 .checklist {
     max-width: 100%;
-    height: 300px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .checklistitem {
     display: flex;
     align-items: center;
     align-content: space-around;
-    flex: 1 0 20%;
+    flex-basis: auto;
+    width: 300px;
     margin: 10px;
 }
 
 .checklistitem > span {
-    width: 200px;
     margin-left: 20px;
 }
 
