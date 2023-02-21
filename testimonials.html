@@ -1,0 +1,17 @@
+---
+layout: default
+title: Testimonials - DGT
+---
+<section class="my-story">
+  <div class="my-story-inner container">
+    <div class="my-story-inner-content">
+      <h4 class="experience-title">Testimonials</h4>
+      {% for player in site.data.testimonials %}
+      <section>
+        <h5>{{ player.name }}</h5>
+        <p>{{ player.quote }}</p>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
