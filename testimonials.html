@@ -9,7 +9,14 @@ title: Testimonials - DGT
       {% for player in site.data.testimonials %}
       <section>
         <h5>{{ player.name }}</h5>
-        <p>{{ player.quote }}</p>
+        <ul>
+          {% for a in player.accolades %}
+            <li>{{ a }}</li>
+          {% endfor %}
+        </ul>
+        <img src="assets/testimonials/{{ player.img }}.png" />
+        <p>"{{ player.quote }}"</p>
+        <hr />
       </section>
       {% endfor %}
     </div>
