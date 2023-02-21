@@ -265,64 +265,9 @@ Experience
     max-width: 100%;
 }
 
-
-
-/*****
-
-Shop Page
-
-*****/
-
-.shop-page .main-content {
-    background-color: #fff;
-}
-
-.shop-row {
-    margin: 0 auto;
-    margin-bottom: 35px;
-}
-
-.shop-item {
-    flex-basis: calc(1140px / 3 - 30px);
-    margin-right: 30px;
-}
-
-.shop-item:last-child {
-    margin-right: 0;
-}
-
-.shop-image-link:hover {
-    text-decoration: none;
-}
-
-.shop-item-image-wrap {
+img.testimonial {
     max-width: 100%;
-    margin-bottom: 25px;
 }
-
-.shop-image {
-    max-width: 100%;
-    box-shadow: 0;
-    transition: box-shadow 0.4s;
-}
-
-.shop-image:hover {
-    box-shadow: 2px 2px 1px #515151;
-}
-
-.shop-item-title {
-    font-size: 18px;
-    text-align: center;
-    color: #111111;
-    font-weight: 300;
-}
-
-.shop-item-price {
-    text-align: center;
-    color: #111111;
-    font-weight: 300;
-}
-
 
 
 /***** Mobile Styles *****/
